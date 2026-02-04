@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import cv2
 import cvzone
 from cvzone.ColorModule import ColorFinder
@@ -119,10 +113,3 @@ while True:
 # Release the video capture object and close any OpenCV windows
 cap.release()
 cv2.destroyAllWindows()
-
-
-# In[ ]:
-
-
-
-
