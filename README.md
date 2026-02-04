@@ -21,8 +21,8 @@ A computer vision application that tracks a basketball in a video, predicts its 
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/basketball-predictor.git
-cd basketball-predictor
+git clone https://github.com/nowherewalrus/Ball-Trajectory-Prediction.git
+cd Track_Pred
 ```
 
 2. Install the required packages:
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 2. Run the script:
 ```bash
-python basketball_predictor.py
+python Track_Pred.py
 ```
 
 3. Controls:
@@ -82,7 +82,7 @@ prediction = 300 < x < 430
 
 ```
 basketball-predictor/
-├── basketball_predictor.py  # Main application code
+├── Track_Pred.py  # Main application code
 ├── requirements.txt         # Python dependencies
 ├── README.md               # This file
 └── vid (5).mp4            # Sample video (not included)
